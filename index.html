@@ -66,6 +66,17 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 .rating-利空 { background: #f8d7da; color: #721c24; }
 .confidence-tag { font-size: 0.73rem; color: #888; }
 .llm-notice { font-size: 0.75rem; color: #e67e22; margin-top: 4px; }
+.view-block { margin-top: 10px; padding: 10px 12px; border-radius: 8px; background: #ffffff; border: 1px solid #edf1f5; }
+.view-block-title { font-size: 0.75rem; font-weight: 700; color: #667085; margin-bottom: 4px; }
+.view-block-text { font-size: 0.8rem; color: #444; }
+.event-list { margin-top: 10px; }
+.event-item { padding: 6px 0; border-bottom: 1px solid #f4f4f5; }
+.event-item:last-child { border-bottom: none; }
+.event-item-title { font-size: 0.78rem; font-weight: 600; }
+.event-item-meta { font-size: 0.7rem; color: #999; }
+.event-item-summary { font-size: 0.75rem; color: #666; }
+.event-item-risk .event-item-title { color: #c0392b; }
+.event-item-catalyst .event-item-title { color: #1f7a45; }
 
 /* ── Three-column body ── */
 .card-body { padding: 16px 20px; }
@@ -147,18 +158,18 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 
 <div class="section-title">风险队列</div>
 <div class="risk-queue">
-<div class="risk-item">乾照光电: STOP - 跌破成本价超过8%，当前24.58，成本35.77</div>
-<div class="risk-item">天岳先进: STOP - 跌破成本价超过8%，当前152.63，成本170.38</div>
-<div class="risk-item">国博电子: STOP - 跌破成本价超过8%，当前92.6，成本124.59</div>
-<div class="risk-item">有研复材: STOP - 跌破成本价超过8%，当前28.91，成本32.65</div>
+<div class="risk-item">乾照光电: STOP - 跌破成本价超过8%，当前24.33，成本35.77</div>
+<div class="risk-item">天岳先进: STOP - 跌破成本价超过8%，当前150.73，成本170.38</div>
+<div class="risk-item">国博电子: STOP - 跌破成本价超过8%，当前91.27，成本124.59</div>
+<div class="risk-item">有研复材: STOP - 跌破成本价超过8%，当前28.85，成本32.65</div>
 </div>
 
 <div class="section-title">今日重点</div>
 <div class="highlights">
-<div class="highlight-item">乾照光电: STOP - 跌破成本价超过8%，当前24.58，成本35.77</div>
-<div class="highlight-item">天岳先进: STOP - 跌破成本价超过8%，当前152.63，成本170.38</div>
-<div class="highlight-item">国博电子: STOP - 跌破成本价超过8%，当前92.6，成本124.59</div>
-<div class="highlight-item">有研复材: STOP - 跌破成本价超过8%，当前28.91，成本32.65</div>
+<div class="highlight-item">乾照光电: STOP - 跌破成本价超过8%，当前24.33，成本35.77</div>
+<div class="highlight-item">天岳先进: STOP - 跌破成本价超过8%，当前150.73，成本170.38</div>
+<div class="highlight-item">国博电子: STOP - 跌破成本价超过8%，当前91.27，成本124.59</div>
+<div class="highlight-item">有研复材: STOP - 跌破成本价超过8%，当前28.85，成本32.65</div>
 </div>
 
 <div class="section-title ok">持仓诊断</div>
@@ -170,18 +181,19 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div>
 <span class="action-badge action-STOP">建议止损</span>
 </div>
-<div class="position-line">成本 35.77 → 现价 24.58 | 持仓?股 |  </div>
+<div class="position-line">成本 35.77 → 现价 24.33 | 持仓?股 |  </div>
 <div class="conclusion-block">
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-负面">消息面：负面</span><span class="confidence-tag">置信度：高</span></div>
-<div class="verdict">建议止损；基本面中，消息面负面。跌破成本价超过8%，当前24.58，成本35.77</div>
+<div class="verdict">建议止损；基本面中，消息面负面。跌破成本价超过8%，当前24.33，成本35.77</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">光学光电子板块，营收/利润同比分别为-47.3%/6.6%，PE约192.23</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="event-list"><div class="event-item event-item-risk"><div class="event-item-title">乾照光电:关于公司高级管理人员股份减持计划减持时间区间届满的公告</div><div class="event-item-meta">2026-05-27 | 东方财富公告</div><div class="event-item-summary">公告匹配300102</div></div></div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">190.5</td></tr><tr><td>市净率(PB)</td><td class="">5.25</td></tr><tr><td>总市值</td><td class="">226亿</td></tr><tr><td>所属行业</td><td class="">光学光电子</td></tr><tr><td>ROE(年化)</td><td class="">+2.7%</td></tr><tr><td>毛利率</td><td class="">+8.7%</td></tr><tr><td>净利率</td><td class="">+1.5%</td></tr><tr><td>每股收益</td><td class="">0.03</td></tr><tr><td>营收同比</td><td class="">+26.0%</td></tr><tr><td>利润同比</td><td class="">+24.5%</td></tr><tr><td>扣非利润同比</td><td class="metric-good">-220.8%</td></tr><tr><td>资产负债率</td><td class="">+31.2%</td></tr><tr><td>有息负债率</td><td class="">+14.3%</td></tr><tr><td>流动比率</td><td class="">1.8</td></tr><tr><td>经营现金流/股</td><td class="">-0.067</td></tr><tr><td>每股净资产</td><td class="">4.73</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">192.2</td></tr><tr><td>市净率(PB)</td><td class="">5.20</td></tr><tr><td>总市值</td><td class="">223亿</td></tr><tr><td>所属行业</td><td class="">光学光电子</td></tr><tr><td>ROE(年化)</td><td class="">+2.7%</td></tr><tr><td>毛利率</td><td class="">+18.3%</td></tr><tr><td>净利率</td><td class="">+7.2%</td></tr><tr><td>每股收益</td><td class="">0.03</td></tr><tr><td>营收同比</td><td class="">-47.3%</td></tr><tr><td>利润同比</td><td class="">+6.6%</td></tr><tr><td>扣非利润同比</td><td class="metric-good">-220.8%</td></tr><tr><td>资产负债率</td><td class="">+32.0%</td></tr><tr><td>有息负债率</td><td class="">+14.3%</td></tr><tr><td>流动比率</td><td class="">1.8</td></tr><tr><td>经营现金流/股</td><td class="">-0.067</td></tr><tr><td>每股净资产</td><td class="">4.73</td></tr></table>
 
 </div>
 <div>
@@ -217,7 +229,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div><div class="key-levels"><span class="key-level key-cost">成本 35.77</span></div>
 </div>
 </div>
-<div class="risk-section no-risks"><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
+<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• 营收同比大幅下滑(-47.3%)</div></div>
 </div>
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破成本价35.77且跌破日线中枢下沿</span></div>
@@ -232,18 +244,19 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div>
 <span class="action-badge action-STOP">建议止损</span>
 </div>
-<div class="position-line">成本 170.38 → 现价 152.63 | 持仓?股 |  </div>
+<div class="position-line">成本 170.38 → 现价 150.73 | 持仓?股 |  </div>
 <div class="conclusion-block">
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-中性">消息面：中性</span><span class="confidence-tag">置信度：高</span></div>
-<div class="verdict">建议止损；基本面中，消息面中性。跌破成本价超过8%，当前152.63，成本170.38</div>
+<div class="verdict">建议止损；基本面中，消息面中性。跌破成本价超过8%，当前150.73，成本170.38</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">半导体板块，PE约-263.38</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-good">-304.0</td></tr><tr><td>市净率(PB)</td><td class="">10.34</td></tr><tr><td>总市值</td><td class="">736亿</td></tr><tr><td>ROE(年化)</td><td class="">-3.5%</td></tr><tr><td>毛利率</td><td class="">+6.3%</td></tr><tr><td>净利率</td><td class="">+1.5%</td></tr><tr><td>每股收益</td><td class="">-0.13</td></tr><tr><td>营收同比</td><td class="">+169.6%</td></tr><tr><td>利润同比</td><td class="">+149.0%</td></tr><tr><td>扣非利润同比</td><td class="metric-good">-1750.2%</td></tr><tr><td>资产负债率</td><td class="">+2.0%</td></tr><tr><td>有息负债率</td><td class="">+12.5%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.3</td></tr><tr><td>经营现金流/股</td><td class="">0.021</td></tr><tr><td>每股净资产</td><td class="">14.68</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-good">-263.4</td></tr><tr><td>市净率(PB)</td><td class="">10.27</td></tr><tr><td>总市值</td><td class="">648亿</td></tr><tr><td>所属行业</td><td class="">半导体</td></tr><tr><td>ROE(年化)</td><td class="">-3.5%</td></tr><tr><td>毛利率</td><td class="">+19.1%</td></tr><tr><td>净利率</td><td class="metric-good">-16.8%</td></tr><tr><td>每股收益</td><td class="">-0.13</td></tr><tr><td>营收同比</td><td class="">-10.4%</td></tr><tr><td>利润同比</td><td class="metric-good">-810.4%</td></tr><tr><td>扣非利润同比</td><td class="metric-good">-1750.2%</td></tr><tr><td>资产负债率</td><td class="">+25.9%</td></tr><tr><td>有息负债率</td><td class="">+12.5%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.3</td></tr><tr><td>经营现金流/股</td><td class="">0.021</td></tr><tr><td>每股净资产</td><td class="">14.68</td></tr></table>
 
 </div>
 <div>
@@ -279,12 +292,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div><div class="key-levels"><span class="key-level key-cost">成本 170.38</span></div>
 </div>
 </div>
-<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• PE为负，公司处于亏损状态</div><div class="risk-item-text">• ROE为负(-0.8%)</div><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
+<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• PE为负，公司处于亏损状态</div><div class="risk-item-text">• 利润同比大幅下滑(-810.4%)</div><div class="risk-item-text">• ROE为负(-0.8%)</div><div class="risk-item-text">• 净利率为负(-16.8%)</div></div>
 </div>
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破成本价170.38且跌破日线中枢下沿</span></div>
 </div>
-<div class="data-quality">数据缺口：industry; business; ps; cash; employees; region</div>
+<div class="data-quality">数据缺口：ps; cash; 利润同比=-810.4疑似异常（合理区间-200~500）</div>
 </div>
 <div class="stock-card">
 <div class="card-header">
@@ -294,18 +307,19 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div>
 <span class="action-badge action-STOP">建议止损</span>
 </div>
-<div class="position-line">成本 124.59 → 现价 92.6 | 持仓?股 |  </div>
+<div class="position-line">成本 124.59 → 现价 91.27 | 持仓?股 |  </div>
 <div class="conclusion-block">
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-中性">消息面：中性</span><span class="confidence-tag">置信度：高</span></div>
-<div class="verdict">建议止损；基本面中，消息面中性。跌破成本价超过8%，当前92.6，成本124.59</div>
+<div class="verdict">建议止损；基本面中，消息面中性。跌破成本价超过8%，当前91.27，成本124.59</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">营收/利润同比分别为-8.9%/-98.5%，PE约120.66</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">160.7</td></tr><tr><td>市净率(PB)</td><td class="">8.51</td></tr><tr><td>总市值</td><td class="">551亿</td></tr><tr><td>ROE(年化)</td><td class="">+8.0%</td></tr><tr><td>毛利率</td><td class="">+1.5%</td></tr><tr><td>净利率</td><td class="">+1.6%</td></tr><tr><td>营收同比</td><td class="">+98.0%</td></tr><tr><td>利润同比</td><td class="">+92.2%</td></tr><tr><td>扣非利润同比</td><td class="">-102.1%</td></tr><tr><td>资产负债率</td><td class="">+1.2%</td></tr><tr><td>有息负债率</td><td class="">+0.9%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.4</td></tr><tr><td>经营现金流/股</td><td class="">-0.364</td></tr><tr><td>每股净资产</td><td class="">10.85</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">120.7</td></tr><tr><td>市净率(PB)</td><td class="">8.41</td></tr><tr><td>总市值</td><td class="">544亿</td></tr><tr><td>ROE(年化)</td><td class="">+8.0%</td></tr><tr><td>毛利率</td><td class="">+33.6%</td></tr><tr><td>净利率</td><td class="">+0.3%</td></tr><tr><td>营收同比</td><td class="">-8.9%</td></tr><tr><td>利润同比</td><td class="">-98.5%</td></tr><tr><td>扣非利润同比</td><td class="">-102.1%</td></tr><tr><td>资产负债率</td><td class="">+23.1%</td></tr><tr><td>有息负债率</td><td class="">+0.9%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.4</td></tr><tr><td>经营现金流/股</td><td class="">-0.364</td></tr><tr><td>每股净资产</td><td class="">10.85</td></tr></table>
 
 </div>
 <div>
@@ -341,7 +355,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div><div class="key-levels"><span class="key-level key-cost">成本 124.59</span></div>
 </div>
 </div>
-<div class="risk-section no-risks"><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
+<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• 利润同比为负，需警惕业绩下滑</div></div>
 </div>
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破成本价124.59且跌破日线中枢下沿</span></div>
@@ -356,18 +370,19 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div>
 <span class="action-badge action-STOP">建议止损</span>
 </div>
-<div class="position-line">成本 32.65 → 现价 28.91 | 持仓?股 |  </div>
+<div class="position-line">成本 32.65 → 现价 28.85 | 持仓?股 |  </div>
 <div class="conclusion-block">
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-中性">消息面：中性</span><span class="confidence-tag">置信度：高</span></div>
-<div class="verdict">建议止损；基本面中，消息面中性。跌破成本价超过8%，当前28.91，成本32.65</div>
+<div class="verdict">建议止损；基本面中，消息面中性。跌破成本价超过8%，当前28.85，成本32.65</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">有色金属板块，营收/利润同比分别为62.2%/110.6%，PE约205.04</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">136.6</td></tr><tr><td>市净率(PB)</td><td class="">9.24</td></tr><tr><td>总市值</td><td class="">145亿</td></tr><tr><td>ROE(年化)</td><td class="">+8.9%</td></tr><tr><td>毛利率</td><td class="">+5.8%</td></tr><tr><td>净利率</td><td class="">+1.7%</td></tr><tr><td>每股收益</td><td class="">0.00</td></tr><tr><td>营收同比</td><td class="">+31.7%</td></tr><tr><td>利润同比</td><td class="">+28.5%</td></tr><tr><td>扣非利润同比</td><td class="">+40.5%</td></tr><tr><td>资产负债率</td><td class="">+38.0%</td></tr><tr><td>有息负债率</td><td class="">+6.5%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.0</td></tr><tr><td>经营现金流/股</td><td class="">0.059</td></tr><tr><td>每股净资产</td><td class="">2.18</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-danger">205.0</td></tr><tr><td>市净率(PB)</td><td class="">9.20</td></tr><tr><td>总市值</td><td class="">27亿</td></tr><tr><td>所属行业</td><td class="">有色金属</td></tr><tr><td>ROE(年化)</td><td class="">+8.9%</td></tr><tr><td>毛利率</td><td class="">+23.8%</td></tr><tr><td>净利率</td><td class="">+1.2%</td></tr><tr><td>每股收益</td><td class="">0.00</td></tr><tr><td>营收同比</td><td class="">+62.2%</td></tr><tr><td>利润同比</td><td class="">+110.6%</td></tr><tr><td>扣非利润同比</td><td class="">+40.5%</td></tr><tr><td>资产负债率</td><td class="">+23.0%</td></tr><tr><td>有息负债率</td><td class="">+6.5%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.0</td></tr><tr><td>经营现金流/股</td><td class="">0.059</td></tr><tr><td>每股净资产</td><td class="">2.18</td></tr></table>
 
 </div>
 <div>
@@ -403,12 +418,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div><div class="key-levels"><span class="key-level key-cost">成本 32.65</span></div>
 </div>
 </div>
-<div class="risk-section no-risks"><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
+<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• PE极高(205倍)，估值可能泡沫化</div><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
 </div>
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破成本价32.65且跌破日线中枢下沿</span></div>
 </div>
-<div class="data-quality">数据缺口：industry; business; ps; cash; employees; region</div>
+<div class="data-quality">数据缺口：ps; cash</div>
 </div>
 <div class="stock-card">
 <div class="card-header">
@@ -423,13 +438,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-负面">消息面：负面</span><span class="confidence-tag">置信度：中</span></div>
 <div class="verdict">继续持有；基本面中，消息面负面。日线处于中枢内，未见明确卖点</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">贵金属板块，营收/利润同比分别为74.5%/308.0%，PE约65.93</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">68.2</td></tr><tr><td>市净率(PB)</td><td class="">10.28</td></tr><tr><td>总市值</td><td class="">123亿</td></tr><tr><td>所属行业</td><td class="">贵金属</td></tr><tr><td>ROE(年化)</td><td class="">+14.0%</td></tr><tr><td>毛利率</td><td class="">+4.6%</td></tr><tr><td>净利率</td><td class="">+1.1%</td></tr><tr><td>每股收益</td><td class="">0.16</td></tr><tr><td>营收同比</td><td class="">+47.1%</td></tr><tr><td>利润同比</td><td class="">+44.7%</td></tr><tr><td>扣非利润同比</td><td class="">+335.2%</td></tr><tr><td>资产负债率</td><td class="">+54.6%</td></tr><tr><td>有息负债率</td><td class="">+0.8%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.3</td></tr><tr><td>经营现金流/股</td><td class="">0.243</td></tr><tr><td>每股净资产</td><td class="">4.35</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">65.9</td></tr><tr><td>市净率(PB)</td><td class="">10.25</td></tr><tr><td>总市值</td><td class="">104亿</td></tr><tr><td>所属行业</td><td class="">贵金属</td></tr><tr><td>ROE(年化)</td><td class="">+14.0%</td></tr><tr><td>毛利率</td><td class="">+66.4%</td></tr><tr><td>净利率</td><td class="">+41.9%</td></tr><tr><td>每股收益</td><td class="">0.16</td></tr><tr><td>营收同比</td><td class="">+74.5%</td></tr><tr><td>利润同比</td><td class="">+308.0%</td></tr><tr><td>扣非利润同比</td><td class="">+335.2%</td></tr><tr><td>资产负债率</td><td class="">+20.0%</td></tr><tr><td>有息负债率</td><td class="">+0.8%</td></tr><tr><td>流动比率</td><td class="metric-danger">3.3</td></tr><tr><td>经营现金流/股</td><td class="">0.243</td></tr><tr><td>每股净资产</td><td class="">4.35</td></tr></table>
 
 </div>
 <div>
@@ -485,13 +501,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-中性">消息面：中性</span><span class="confidence-tag">置信度：中</span></div>
 <div class="verdict">继续持有；基本面中，消息面中性。日线处于中枢内，未见明确卖点</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">电子元件板块，营收/利润同比分别为46.3%/48.5%，PE约84.8</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">77.4</td></tr><tr><td>市净率(PB)</td><td class="">11.37</td></tr><tr><td>总市值</td><td class="">2448亿</td></tr><tr><td>所属行业</td><td class="">电子元件</td></tr><tr><td>ROE(年化)</td><td class="">+12.6%</td></tr><tr><td>毛利率</td><td class="">+17.8%</td></tr><tr><td>净利率</td><td class="">+1.1%</td></tr><tr><td>每股收益</td><td class="">0.41</td></tr><tr><td>营收同比</td><td class="">+132.0%</td></tr><tr><td>利润同比</td><td class="">+125.3%</td></tr><tr><td>扣非利润同比</td><td class="">+60.8%</td></tr><tr><td>资产负债率</td><td class="">+1.6%</td></tr><tr><td>有息负债率</td><td class="">+2.1%</td></tr><tr><td>流动比率</td><td class="metric-danger">4.1</td></tr><tr><td>经营现金流/股</td><td class="">0.082</td></tr><tr><td>每股净资产</td><td class="">11.69</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">84.8</td></tr><tr><td>市净率(PB)</td><td class="">11.33</td></tr><tr><td>总市值</td><td class="">2380亿</td></tr><tr><td>所属行业</td><td class="">电子元件</td></tr><tr><td>ROE(年化)</td><td class="">+12.6%</td></tr><tr><td>毛利率</td><td class="">+43.5%</td></tr><tr><td>净利率</td><td class="">+29.5%</td></tr><tr><td>每股收益</td><td class="">0.41</td></tr><tr><td>营收同比</td><td class="">+46.3%</td></tr><tr><td>利润同比</td><td class="">+48.5%</td></tr><tr><td>扣非利润同比</td><td class="">+60.8%</td></tr><tr><td>资产负债率</td><td class="">+17.1%</td></tr><tr><td>有息负债率</td><td class="">+2.1%</td></tr><tr><td>流动比率</td><td class="metric-danger">4.1</td></tr><tr><td>经营现金流/股</td><td class="">0.082</td></tr><tr><td>每股净资产</td><td class="">11.69</td></tr></table>
 
 </div>
 <div>
@@ -547,13 +564,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-负面">消息面：负面</span><span class="confidence-tag">置信度：中</span></div>
 <div class="verdict">继续持有；基本面中，消息面负面。日线处于中枢内，未见明确卖点</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">玻璃玻纤板块，营收/利润同比分别为-7.3%/-57.4%，PE约656.3</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="event-list"><div class="event-item event-item-risk"><div class="event-item-title">再升科技:再升科技部分董事、高级管理人员减持股份结果公告</div><div class="event-item-meta">2026-05-26 | 东方财富公告</div><div class="event-item-summary">公告匹配603601</div></div></div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-danger">422.8</td></tr><tr><td>市净率(PB)</td><td class="">8.94</td></tr><tr><td>总市值</td><td class="">242亿</td></tr><tr><td>ROE(年化)</td><td class="">+2.5%</td></tr><tr><td>毛利率</td><td class="">+67.8%</td></tr><tr><td>净利率</td><td class="metric-danger">+85.0%</td></tr><tr><td>每股收益</td><td class="">0.01</td></tr><tr><td>营收同比</td><td class="">+22.0%</td></tr><tr><td>利润同比</td><td class="">+21.2%</td></tr><tr><td>扣非利润同比</td><td class="">-66.9%</td></tr><tr><td>资产负债率</td><td class="">+25.9%</td></tr><tr><td>有息负债率</td><td class="">+0.2%</td></tr><tr><td>流动比率</td><td class="metric-danger">6.2</td></tr><tr><td>经营现金流/股</td><td class="">0.030</td></tr><tr><td>每股净资产</td><td class="">2.37</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-danger">656.3</td></tr><tr><td>市净率(PB)</td><td class="">8.94</td></tr><tr><td>总市值</td><td class="">242亿</td></tr><tr><td>所属行业</td><td class="">玻璃玻纤</td></tr><tr><td>ROE(年化)</td><td class="">+2.5%</td></tr><tr><td>毛利率</td><td class="">+18.7%</td></tr><tr><td>净利率</td><td class="">+4.9%</td></tr><tr><td>每股收益</td><td class="">0.01</td></tr><tr><td>营收同比</td><td class="">-7.3%</td></tr><tr><td>利润同比</td><td class="">-57.4%</td></tr><tr><td>扣非利润同比</td><td class="">-66.9%</td></tr><tr><td>资产负债率</td><td class="">+12.8%</td></tr><tr><td>有息负债率</td><td class="">+0.2%</td></tr><tr><td>流动比率</td><td class="metric-danger">6.2</td></tr><tr><td>经营现金流/股</td><td class="">0.030</td></tr><tr><td>每股净资产</td><td class="">2.37</td></tr></table>
 
 </div>
 <div>
@@ -589,12 +607,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div>
 </div>
 </div>
-<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• PE极高(423倍)，估值可能泡沫化</div><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
+<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• 利润同比为负，需警惕业绩下滑</div></div>
 </div>
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破关键支撑位</span></div>
 </div>
-<div class="data-quality">数据缺口：industry; business; ps; cash; employees; region</div>
+<div class="data-quality">数据缺口：ps; cash</div>
 </div>
 <div class="stock-card">
 <div class="card-header">
@@ -609,13 +627,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-负面">消息面：负面</span><span class="confidence-tag">置信度：中</span></div>
 <div class="verdict">继续持有；基本面中，消息面负面。日线处于中枢内，未见明确卖点</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">营收/利润同比分别为21.2%/58.7%，PE约-21.0277</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-good">-782.9</td></tr><tr><td>市净率(PB)</td><td class="">18.49</td></tr><tr><td>总市值</td><td class="">413亿</td></tr><tr><td>所属行业</td><td class="">半导体</td></tr><tr><td>ROE(年化)</td><td class="">-1.8%</td></tr><tr><td>毛利率</td><td class="">+1.9%</td></tr><tr><td>净利率</td><td class="">+1.5%</td></tr><tr><td>每股收益</td><td class="">-0.15</td></tr><tr><td>营收同比</td><td class="">+478.0%</td></tr><tr><td>利润同比</td><td class="">+448.2%</td></tr><tr><td>扣非利润同比</td><td class="">+58.2%</td></tr><tr><td>资产负债率</td><td class="">+5.6%</td></tr><tr><td>有息负债率</td><td class="">+17.5%</td></tr><tr><td>流动比率</td><td class="metric-danger">4.0</td></tr><tr><td>经营现金流/股</td><td class="">0.209</td></tr><tr><td>每股净资产</td><td class="">24.89</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-good">-21.0</td></tr><tr><td>市净率(PB)</td><td class="">18.48</td></tr><tr><td>总市值</td><td class="">413亿</td></tr><tr><td>ROE(年化)</td><td class="">-1.8%</td></tr><tr><td>毛利率</td><td class="">+43.2%</td></tr><tr><td>净利率</td><td class="">-6.4%</td></tr><tr><td>每股收益</td><td class="">-0.15</td></tr><tr><td>营收同比</td><td class="">+21.2%</td></tr><tr><td>利润同比</td><td class="">+58.7%</td></tr><tr><td>扣非利润同比</td><td class="">+58.2%</td></tr><tr><td>资产负债率</td><td class="">+25.4%</td></tr><tr><td>有息负债率</td><td class="">+17.5%</td></tr><tr><td>流动比率</td><td class="metric-danger">4.0</td></tr><tr><td>经营现金流/股</td><td class="">0.209</td></tr><tr><td>每股净资产</td><td class="">24.89</td></tr></table>
 
 </div>
 <div>
@@ -645,18 +664,18 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="structure-item"><div class="label">日线中枢</div><div class="val">无中枢</div></div>
 <div class="structure-item"><div class="label">背驰状态</div><div class="val">无背驰</div></div>
 <div class="structure-item"><div class="label">30min走势</div><div class="val">无中枢</div></div>
-<div class="structure-item"><div class="label">30min EMA5</div><div class="val">收复EMA5</div></div>
+<div class="structure-item"><div class="label">30min EMA5</div><div class="val">跌破EMA5</div></div>
 <div class="structure-item"><div class="label">买点</div><div class="val">swing底背驰参考@422.2</div></div>
 <div class="structure-item"><div class="label">卖点</div><div class="val">无</div></div>
 </div>
 </div>
 </div>
-<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• PE为负，公司处于亏损状态</div><div class="risk-item-text">• ROE为负(-0.6%)</div><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
+<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• PE为负，公司处于亏损状态</div><div class="risk-item-text">• ROE为负(-0.6%)</div><div class="risk-item-text">• 净利率为负(-6.4%)</div><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
 </div>
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破关键支撑位</span></div>
 </div>
-<div class="data-quality">数据缺口：ps; cash</div>
+<div class="data-quality">数据缺口：industry; business; ps; cash; employees; region</div>
 </div>
 <div class="stock-card">
 <div class="card-header">
@@ -671,13 +690,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-中性">消息面：中性</span><span class="confidence-tag">置信度：高</span></div>
 <div class="verdict">等待确认后加仓；基本面中，消息面中性。30min出现买点但日线未确认，等待日线确认后再加仓</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">电子元件板块，营收/利润同比分别为27.1%/55.8%，PE约92.1</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">61.6</td></tr><tr><td>市净率(PB)</td><td class="">13.46</td></tr><tr><td>总市值</td><td class="">1574亿</td></tr><tr><td>ROE(年化)</td><td class="">+14.0%</td></tr><tr><td>毛利率</td><td class="">+25.4%</td></tr><tr><td>净利率</td><td class="">+1.6%</td></tr><tr><td>每股收益</td><td class="">0.64</td></tr><tr><td>营收同比</td><td class="">+166.3%</td></tr><tr><td>利润同比</td><td class="">+153.0%</td></tr><tr><td>扣非利润同比</td><td class="">+20.5%</td></tr><tr><td>资产负债率</td><td class="">+1.8%</td></tr><tr><td>有息负债率</td><td class="">+14.3%</td></tr><tr><td>流动比率</td><td class="">1.7</td></tr><tr><td>经营现金流/股</td><td class="">-1.121</td></tr><tr><td>每股净资产</td><td class="">11.62</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="">92.1</td></tr><tr><td>市净率(PB)</td><td class="">13.39</td></tr><tr><td>总市值</td><td class="">1564亿</td></tr><tr><td>所属行业</td><td class="">电子元件</td></tr><tr><td>ROE(年化)</td><td class="">+14.0%</td></tr><tr><td>毛利率</td><td class="">+19.8%</td></tr><tr><td>净利率</td><td class="">+15.1%</td></tr><tr><td>每股收益</td><td class="">0.64</td></tr><tr><td>营收同比</td><td class="">+27.1%</td></tr><tr><td>利润同比</td><td class="">+55.8%</td></tr><tr><td>扣非利润同比</td><td class="">+20.5%</td></tr><tr><td>资产负债率</td><td class="">+48.8%</td></tr><tr><td>有息负债率</td><td class="">+14.3%</td></tr><tr><td>流动比率</td><td class="">1.7</td></tr><tr><td>经营现金流/股</td><td class="">-1.121</td></tr><tr><td>每股净资产</td><td class="">11.62</td></tr></table>
 
 </div>
 <div>
@@ -718,7 +738,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破关键支撑位</span></div>
 </div>
-<div class="data-quality">数据缺口：industry; business; ps; cash; employees; region</div>
+<div class="data-quality">数据缺口：ps; cash</div>
 </div>
 <div class="stock-card">
 <div class="card-header">
@@ -733,13 +753,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 <div class="meta-tags"><span class="rating-tag rating-中">基本面：中</span><span class="rating-tag rating-中性">消息面：中性</span><span class="confidence-tag">置信度：高</span></div>
 <div class="verdict">等待确认后加仓；基本面中，消息面中性。30min出现买点但日线未确认，等待日线确认后再加仓</div>
 <div class="llm-notice">⚡ 规则诊断（未启用LLM）</div>
+<div class="view-block"><div class="view-block-title">中线逻辑</div><div class="view-block-text">营收/利润同比分别为-11.8%/-100.0%，PE约201.08</div></div><div class="view-block"><div class="view-block-title">最近5天短线触发器</div><div class="view-block-text">最近5天暂无明显正向催化。</div></div><div class="view-block"><div class="view-block-title">最近5天短线风险</div><div class="view-block-text">最近5天暂无明显短线风险。</div></div>
 </div>
 <div class="card-body">
 <div class="three-col">
 <div>
 <div class="col-header">📊 基本面</div>
 <div style="font-size:0.7rem;color:#bbb;margin-bottom:6px;">财务数据：2026一季报</div>
-<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-good">-111.0</td></tr><tr><td>市净率(PB)</td><td class="">3.28</td></tr><tr><td>总市值</td><td class="">126亿</td></tr><tr><td>所属行业</td><td class="">通信服务</td></tr><tr><td>ROE(年化)</td><td class="">+4.0%</td></tr><tr><td>毛利率</td><td class="">+7.5%</td></tr><tr><td>净利率</td><td class="">+1.1%</td></tr><tr><td>营收同比</td><td class="">+24.8%</td></tr><tr><td>利润同比</td><td class="">+23.6%</td></tr><tr><td>扣非利润同比</td><td class="">-121.9%</td></tr><tr><td>资产负债率</td><td class="">+27.2%</td></tr><tr><td>有息负债率</td><td class="">+40.5%</td></tr><tr><td>流动比率</td><td class="">1.1</td></tr><tr><td>经营现金流/股</td><td class="">-0.740</td></tr><tr><td>每股净资产</td><td class="">7.18</td></tr></table>
+<table class="metrics-table"><tr><td>市盈率(PE)</td><td class="metric-danger">201.1</td></tr><tr><td>市净率(PB)</td><td class="">3.27</td></tr><tr><td>总市值</td><td class="">102亿</td></tr><tr><td>ROE(年化)</td><td class="">+4.0%</td></tr><tr><td>毛利率</td><td class="">+16.9%</td></tr><tr><td>净利率</td><td class="">-0.3%</td></tr><tr><td>营收同比</td><td class="">-11.8%</td></tr><tr><td>利润同比</td><td class="">-100.0%</td></tr><tr><td>扣非利润同比</td><td class="">-121.9%</td></tr><tr><td>资产负债率</td><td class="">+59.3%</td></tr><tr><td>有息负债率</td><td class="">+40.5%</td></tr><tr><td>流动比率</td><td class="">1.1</td></tr><tr><td>经营现金流/股</td><td class="">-0.740</td></tr><tr><td>每股净资产</td><td class="">7.18</td></tr></table>
 
 </div>
 <div>
@@ -775,12 +796,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
 </div>
 </div>
 </div>
-<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• PE为负，公司处于亏损状态</div><div class="risk-item-text">• ROE为负(-0.0%)</div><div class="risk-label" style="margin-top:6px;">✨ 催化</div><div class="catalyst-item-text">• 收入增速保持两位数</div><div class="catalyst-item-text">• 利润增速较快</div></div>
+<div class="risk-section has-risks"><div class="risk-label">⚠️ 风险</div><div class="risk-item-text">• 利润同比为负，需警惕业绩下滑</div></div>
 </div>
 <div class="conditions-footer">
 <div class="condition-row"><span class="condition-tag cond-hold">持有：维持当前仓位</span><span class="condition-tag cond-add">加仓：等待30min确认信号</span><span class="condition-tag cond-reduce">减仓：出现卖点或跌破关键位</span><span class="condition-tag cond-stop">止损：跌破关键支撑位</span></div>
 </div>
-<div class="data-quality">数据缺口：ps; cash</div>
+<div class="data-quality">数据缺口：industry; business; ps; cash; employees; region</div>
 </div>
 
 <div class="disclaimer">
