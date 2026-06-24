@@ -35,7 +35,10 @@ def parse_note_cost(note):
             except ValueError:
                 pass
     return None
-STOCK_CACHE_PATH = os.path.join(os.path.dirname(_BASE_DIR), "stock_names_cache.json")
+STOCK_CACHE_PATH = os.environ.get(
+    "STOCK_NAMES_CACHE_FILE",
+    "/Users/yangfan/yf_source/stock-shared-data/stock_names_cache.json",
+)
 STOCK_CACHE_PATH_FALLBACK = os.path.join(_BASE_DIR, "..", "stock_names_cache.json")
 
 

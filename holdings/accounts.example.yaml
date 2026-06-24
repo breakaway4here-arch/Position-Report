@@ -4,7 +4,7 @@
 accounts:
   - name: 广发易淘金
     type: excel
-    path: ../持仓数据/广发易淘金PC版-持仓.xlsx
+    path: /Users/yangfan/yf_source/stock-shared-data/holdings/广发易淘金PC版-持仓.xlsx
 
   - name: 其他账户A
     type: manual
